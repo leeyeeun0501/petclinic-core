@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: petclinic-db-config
+  namespace: petclinic
+data:
+  MYSQL_DATABASE: petclinic
+  MYSQL_USER: petclinic_app
